@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>387051107844-j6dfokl3o6alef4nlga2sn5m8usjfeab.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.387051107844-j6dfokl3o6alef4nlga2sn5m8usjfeab</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDMNLY8iLq_4SNyDnBK1E7YbKTI_yfLxPQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>387051107844</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hanan.day24-FireBase</string>
+	<key>PROJECT_ID</key>
+	<string>day24-hanan-project</string>
+	<key>STORAGE_BUCKET</key>
+	<string>day24-hanan-project.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:387051107844:ios:e3194db73d6d50a37ea751</string>
+</dict>
+</plist>

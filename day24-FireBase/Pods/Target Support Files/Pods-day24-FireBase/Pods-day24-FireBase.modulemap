@@ -1,0 +1,6 @@
+framework module Pods_day24_FireBase {
+  umbrella header "Pods-day24-FireBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
