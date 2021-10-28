@@ -8,6 +8,7 @@ target 'day24' do
   # Pods for day24
 pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
+pod 'MessageKit'
 pod 'Firebase/Firestore'
 
 end

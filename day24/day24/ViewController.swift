@@ -12,7 +12,7 @@ import FirebaseFirestore
 
 class ViewController: UIViewController {
     
-
+    
     var imageView: UIImageView = {
         let imageView = UIImageView(frame: .zero)
         imageView.image = UIImage(named: "32")
@@ -68,7 +68,6 @@ class ViewController: UIViewController {
         $0.tintColor = .black
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.addTarget(self, action: #selector(B), for: .touchUpInside)
-        $0.addTarget(self, action: #selector(Show), for: .touchDown)
         return $0
     }(UIButton())
     
@@ -77,7 +76,6 @@ class ViewController: UIViewController {
         $0.setTitle("delete", for: .normal)
         $0.tintColor = .black
         $0.translatesAutoresizingMaskIntoConstraints = false
-        $0.addTarget(self, action: #selector(Deletedata), for: .touchDown)
         $0.addTarget(self, action: #selector(C), for: .touchUpInside)
         return $0
     }(UIButton())
@@ -98,14 +96,6 @@ class ViewController: UIViewController {
             "id" :3,
             "number of card" :6
         ])
-    }
-    
-    @objc func C() {
-        Firestore.firestore().document("users/ali3").delete()
-
-    }
-    
-    @objc func Show() {
         Firestore.firestore().collection("users").whereField("name", isEqualTo: "ali")
             .addSnapshotListener{Snapshot, error in
                 if error != nil {
@@ -119,7 +109,10 @@ class ViewController: UIViewController {
                 self.Label.text = "name :\(String(describing: Value)),id :\(String(describing: Value1)),number of card: \(String(describing: Value2))"
             }
     }
-    @objc func Deletedata() {
+    
+    @objc func C() {
+        Firestore.firestore().document("users/ali3").delete()
+        
         var re =      Firestore.firestore().collection("users").whereField("name", isEqualTo: "ali")
             .addSnapshotListener { Snapshot, error in
                 if error != nil {
