@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A0B5F2DE89A7614256E5B5FE /* Pods_day24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAF87BC97DD602383D97695 /* Pods_day24.framework */; };
-		FA3CB77A2729A4C7007A66D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB7792729A4C7007A66D9 /* GoogleService-Info.plist */; };
 		FA3F691B27296A3E00BE70BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F691A27296A3E00BE70BA /* AppDelegate.swift */; };
 		FA3F691D27296A3E00BE70BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F691C27296A3E00BE70BA /* SceneDelegate.swift */; };
 		FA3F691F27296A3E00BE70BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F691E27296A3E00BE70BA /* ViewController.swift */; };
 		FA3F692427296A4100BE70BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3F692327296A4100BE70BA /* Assets.xcassets */; };
 		FA3F692727296A4100BE70BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3F692527296A4100BE70BA /* LaunchScreen.storyboard */; };
+		FA7AFCA5272A907E0089B92D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7AFCA4272A907E0089B92D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8FAF87BC97DD602383D97695 /* Pods_day24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_day24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C26FE8C810E03C6A837580 /* Pods-day24.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-day24.debug.xcconfig"; path = "Target Support Files/Pods-day24/Pods-day24.debug.xcconfig"; sourceTree = "<group>"; };
 		B816C025C558971A35F16EE3 /* Pods-day24.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-day24.release.xcconfig"; path = "Target Support Files/Pods-day24/Pods-day24.release.xcconfig"; sourceTree = "<group>"; };
-		FA3CB7792729A4C7007A66D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA3F691727296A3E00BE70BA /* day24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3F691A27296A3E00BE70BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3F691C27296A3E00BE70BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		FA3F692327296A4100BE70BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3F692627296A4100BE70BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3F692827296A4100BE70BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7AFCA4272A907E0089B92D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				FA3F691A27296A3E00BE70BA /* AppDelegate.swift */,
+				FA7AFCA4272A907E0089B92D /* GoogleService-Info.plist */,
 				FA3F691C27296A3E00BE70BA /* SceneDelegate.swift */,
-				FA3CB7792729A4C7007A66D9 /* GoogleService-Info.plist */,
 				FA3F691E27296A3E00BE70BA /* ViewController.swift */,
 				FA3F692327296A4100BE70BA /* Assets.xcassets */,
 				FA3F692527296A4100BE70BA /* LaunchScreen.storyboard */,
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3F692727296A4100BE70BA /* LaunchScreen.storyboard in Resources */,
-				FA3CB77A2729A4C7007A66D9 /* GoogleService-Info.plist in Resources */,
+				FA7AFCA5272A907E0089B92D /* GoogleService-Info.plist in Resources */,
 				FA3F692427296A4100BE70BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
