@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>270370790838-pc59pfli2asertenkqn044i4plclkbda.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.270370790838-pc59pfli2asertenkqn044i4plclkbda</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCB65_UaOY900QzlkZLdN2X4RLY0IWaQq0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>270370790838</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sara-alzhrani.Day24</string>
+	<key>PROJECT_ID</key>
+	<string>sara-ali</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sara-ali.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:270370790838:ios:160978a0aee1dbd5427517</string>
+	<key>DATABASE_URL</key>
+	<string>https://sara-ali-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
