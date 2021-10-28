@@ -68,19 +68,20 @@ class ViewController: UIViewController {
     @objc func deleteData(){
         Firestore
             .firestore()
-            .collection("users")
-            .whereField("name", isEqualTo: "Deema")
-            .addSnapshotListener { snapshot, error in
-                if error != nil {
-                    print(error)
-                    return
-                }
-                var remove = snapshot?.documents.first?.data()
-                remove?.removeAll()
+            .document("users/firstUser")
+            .delete()
+//            .collection("users")
+//            .whereField("name", isEqualTo: "Deema")
+//            .addSnapshotListener { snapshot, error in
+//                if error != nil {
+//                    print(error)
+//                    return
+//                }
+//                var remove = snapshot?.documents.first?.data()
+//                remove?.removeAll()
                 self.label.text = " "
             }
         
-    }
     
     func setupButton() {
         
