@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         setupButton()
         setupLabel()
         setupDeletButton()
+        view.backgroundColor = UIColor.white
     }
     
     @objc func saveData() {
@@ -66,17 +67,10 @@ class ViewController: UIViewController {
     @objc func deleteData(){
         Firestore
             .firestore()
-            .collection("users")
-            .whereField("name", isEqualTo: "tasnim")
-            .addSnapshotListener { snapshot, error in
-                if error != nil {
-                    print(error)
-                    return
-                }
-                var remove = snapshot?.documents.first?.data()
-                remove?.removeAll()
+            .document("users/firstUser")
+            .delete()
                 self.label.text = " "
-            }
+            
         
     }
     
