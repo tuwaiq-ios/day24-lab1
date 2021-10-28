@@ -1,0 +1,6 @@
+framework module Pods_day24FairBase {
+  umbrella header "Pods-day24FairBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
