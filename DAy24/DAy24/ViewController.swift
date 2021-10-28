@@ -10,6 +10,7 @@ class ViewController: UIViewController {
   let label = UILabel ( )
   label.translatesAutoresizingMaskIntoConstraints = false
   label.text = " Hi"
+     label.textColor = .white
   label.textAlignment = .center
   label.numberOfLines = 0
   label.font = UIFont.systemFont(ofSize: 45, weight: .heavy)
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         show()
-        
+        view.backgroundColor = UIColor(red: 66/255, green: 98/255, blue: 68/255, alpha: 1)
         view.addSubview(tlabel)
         NSLayoutConstraint.activate([
             tlabel.centerXAnchor.constraint(equalTo: view.centerXAnchor ),
@@ -30,13 +31,13 @@ class ViewController: UIViewController {
         ])
         
         let button = UIButton(frame: CGRect(x: 125, y: 300, width: 150, height: 50))
-        button.backgroundColor = .black
+        button.backgroundColor = UIColor(red: 181/255, green: 218/255, blue: 191/255, alpha: 1)
         button.setTitle("Add New User", for: .normal)
         button.addTarget(self, action: #selector(AddNewUser), for: .touchUpInside)
         self.view.addSubview(button)
         
         let button2 = UIButton(frame: CGRect(x: 125, y: 500, width: 150, height: 50))
-        button2.backgroundColor = .black
+        button2.backgroundColor = UIColor(red: 181/255, green: 218/255, blue: 191/255, alpha: 1)
         button2.setTitle("Delete User", for: .normal)
         button2.addTarget(self, action: #selector(deleteUser), for: .touchUpInside)
     
