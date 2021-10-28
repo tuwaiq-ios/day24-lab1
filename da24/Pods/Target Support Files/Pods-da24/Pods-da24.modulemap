@@ -1,0 +1,6 @@
+framework module Pods_da24 {
+  umbrella header "Pods-da24-umbrella.h"
+
+  export *
+  module * { export * }
+}
